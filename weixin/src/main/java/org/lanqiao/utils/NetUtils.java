@@ -24,7 +24,7 @@ public class NetUtils {
     public static final String UPLOADFILE_URL = "https://api.weixin.qq.com/cgi-bin/media/upload?access_token=ACCESS_TOKEN&type=TYPE";
     public static final String GET_MEDIA_URL = "https://api.weixin.qq.com/cgi-bin/media/get?access_token=ACCESS_TOKEN&media_id=MEDIA_ID";
     public static final String AUTO_CHAT = "http://api.qingyunke.com/api.php?key=free&appid=0&msg=Content";
-    public static final String BAIDU_URL="http://api.fanyi.baidu.com/api/trans/vip/translate";
+    //public static final String BAIDU_URL="http://api.fanyi.baidu.com/api/trans/vip/translate";
 
     public static String doGetStr(String urlPath) throws IOException {
         //创建URL对象，建立远程连接
